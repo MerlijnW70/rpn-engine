@@ -1,7 +1,7 @@
 # rpn-engine
 
-**A zero-allocation, `no_std`, `const`-evaluable Reverse Polish Notation evaluator over a
-caller-provided stack buffer.**
+**Reverse Polish Notation evaluator — zero-allocation, `no_std`, and `const`-evaluable, over
+a caller-provided stack buffer.**
 
 The caller owns the memory. `evaluate` takes a token slice and a scratch stack buffer
 (`&mut [i64]`) and never allocates — `O(n)` time, `O(1)` space beyond the two slices you

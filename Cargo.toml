@@ -2,7 +2,7 @@
 name = "rpn-engine"
 version = "0.1.0"
 edition = "2021"
-description = "A zero-allocation, no_std, const-evaluable Reverse Polish Notation evaluator over a caller-provided stack buffer."
+description = "Reverse Polish Notation evaluator — zero-allocation, no_std, and const-evaluable, over a caller-provided stack buffer."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/MerlijnW70/rpn-engine"
 keywords = ["rpn", "no-std", "no-alloc", "const-fn", "calculator"]
