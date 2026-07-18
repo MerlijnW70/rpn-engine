@@ -1,0 +1,12 @@
+[package]
+name = "rpn-engine"
+version = "0.1.0"
+edition = "2021"
+description = "A zero-allocation, no_std Reverse Polish Notation evaluator over a caller-provided stack buffer."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MerlijnW70/rpn-engine"
+keywords = ["rpn", "no_std", "no-alloc", "calculator", "stack"]
+categories = ["no-std", "algorithms", "mathematics"]
+readme = "README.md"
+
+[dependencies]
